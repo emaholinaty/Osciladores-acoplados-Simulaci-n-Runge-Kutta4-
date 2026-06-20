@@ -1,4 +1,4 @@
-//COMPUTACIÓN II, Práctica 15, Resolución de ecuaciones diferenciales de orden n con condiciones iniciales
+// ResoluciÃ³n de ecuaciones diferenciales de orden n con condiciones iniciales
 
 #include <iostream>
 #include <cmath>
@@ -68,7 +68,7 @@ void RK4(double (*Af[n])(double t, double y[n]), double t0, double h, double y[n
     for (j=0; j<n; j++)    { k3[j]=h*Af[j](t+0.5*h,yy); }
     for (j=0; j<n; j++)    { yy[j]=y[j]+k3[j];}
     for (j=0; j<n; j++)    { k4[j]=h*Af[j](t+h,yy);}
-    // nueva aproximación
+    // nueva aproximaciÃ³n
     for (j=0; j<n; j++) 
     { y[j]=y[j] + (1.0/6.0)*(k1[j] + 2.0*k2[j] + 2.0*k3[j] + k4[j]);}
     t=t+h;
