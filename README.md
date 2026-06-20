@@ -1,5 +1,5 @@
-# Osciladores-acoplados-Simulaci-n-Runge-Kutta4-
-Simulación numérica de un sistema de dos bloques acoplados por muelles mediante el método de Runge-Kutta (RK4) implementado en C++ y visualizado en MATLAB.
+# Osciladores-acoplados-Simulaci-n-Runge-Kutta4- (2021)
+Simulación numérica de un sistema de dos bloques acoplados por muelles mediante el método de Runge-Kutta (RK4) implementado en C++ y visualizado en MATLAB. (2021)
 
 Este proyecto resuelve las ecuaciones de movimiento de un sistema físico compuesto por dos masas (m1​ y m2​) acopladas por muelles con constantes elásticas k1​ y k2​. El objetivo principal es determinar el desplazamiento (elongación) y la velocidad de ambos bloques en función del tiempo.
 
